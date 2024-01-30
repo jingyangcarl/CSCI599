@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>assignment2</title>
+		<title>assignment1</title>
 		<style>
 			body { margin: 0; }
 		</style>
@@ -16,7 +16,25 @@
     </script>
 	</head>
 	<body>
+		<h1 style="text-align: center;">Assignment 1</h1>
+		<h2>Introduction</h2>
+		<p>For this assignment, you will be implementing two algorithms covering: 1. Loop Subdivision 2. Quadratic Error Mesh Decimation over any 3D object. 
+			<ul>
+				<li><a href="https://en.wikipedia.org/wiki/Subdivision_surface#Loop_subdivision_surface">Loop Subdivision</a></li>
+				<li><a href="https://www.cs.cmu.edu/~./garland/Papers/quadrics.pdf">Quadric Error Mesh Decimation</a></li>
+			</ul>
+			We have made available a visualization tool using the Three.js library implemented in "./js/assignment1.js" and an example implementation located in "./assignments/assignment1.py". Your objective is to create implementations for both "subdivision_loop" and "simplify_quadric_error". You are encouraged to use a programming language with which you are comfortable. The output results should be in the obj format, and you must visualize your outcomes accordingly. 
+			<br><br>
+			<b>How to Submit: </b>Please submit this template file along with your implementation as a zip file. The zip file should contain your source code, the generated results in OBJ mesh format, and a report that has been modified using this HTML file. The report should comprise your results and a concise explanation of your implementation. Alternatively, you may choose to create a GitHub repository containing all these elements and provide a link for submission.
+			<br><br>
+			<b>Grading: </b>The grading is based on the correctness of your implementation. You are encouraged to use the visualization tool to debug your implementation. You can also use the visualization tool to test your implementation on other 3D models. You can find an example of 3D model in the "./assets" folder.</p>
+		</p>
+		<h2>Loop Subdivision</h2>
+		<p>You should visualize your results in the following window with your customization.</p>
+        <div id="container1"></div>
+		<h2>Quadric Error Mesh Decimation</h2>
+		<p>You should create a similar second visualizer and display your results accordingly.</p>
+        <div id="container2"></div>
 		<script type="module" src="../js/assignment1.js"></script>
-        <div id="container"></div>
 	</body>
 </html>
