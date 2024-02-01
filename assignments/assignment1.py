@@ -20,7 +20,8 @@ def simplify_quadric_error(mesh, face_count=1):
 
 if __name__ == '__main__':
     # Load mesh and print information
-    mesh = trimesh.load_mesh('assets/cube.obj')
+    # mesh = trimesh.load_mesh('assets/cube.obj')
+    mesh = trimesh.creation.box(extents=[1, 1, 1])
     print(f'Mesh Info: {mesh}')
     
     # apply loop subdivision over the loaded mesh
