@@ -37,7 +37,7 @@ function initScene() {
 	let loader = new OBJLoader();
 	loader.load( 
 		// resource URL
-		'../assets/cube.obj', 
+		'../assets/assignment1/cube.obj', 
 		// called when resource is loaded
 		function ( object ) {
 			cube = object.children[0];

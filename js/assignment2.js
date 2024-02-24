@@ -4,6 +4,7 @@ import { GUI } from 'three/addons/libs/lil-gui.module.min.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 const container = document.getElementById( 'container' );
+container.style.position = 'relative';
 let renderer, stats, gui;
 let scene, camera, controls, cube;
 
@@ -31,14 +32,22 @@ function initScene() {
 function initSTATS() {
 	stats = new Stats();
 	stats.showPanel( 0 );
+	stats.dom.style.position = 'absolute';
+	stats.dom.style.top = 0;
+	stats.dom.style.left = 0;
 	container.appendChild( stats.dom );
 }
 
 function initGUI() {
 	gui = new GUI();
+	// cube = scene.getObjectByName( "cube" );
 	gui.add( cube.position, 'x', -1, 1 );
 	gui.add( cube.position, 'y', -1, 1 );
 	gui.add( cube.position, 'z', -1, 1 );
+	gui.domElement.style.position = 'absolute';
+	gui.domElement.style.top = '0px';
+	gui.domElement.style.right = '0px';
+	container.appendChild( gui.domElement );
 }
 
 function animate() {
