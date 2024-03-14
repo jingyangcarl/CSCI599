@@ -76,7 +76,7 @@ The following files are used:
 
 ### Requirements / Rubric
 * +80 pts: Implement the structure-from-motion algorithm with the start code.  
-* +20 pts: Write up your project, algorithms, reporting results (reprojection error) and visualisations, compare your reconstruction with open source software Colmap.
+* +20 pts: Write up your project, algorithms, reporting results (reprojection error) and visualisations (point cloud and camera pose), compare your reconstruction with open source software Colmap.
 * +10 pts: Extra credit (see below)
 * -5*n pts: Lose 5 points for every time (after the first) you do not follow the instructions for the hand in format
 
