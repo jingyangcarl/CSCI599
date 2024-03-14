@@ -9,7 +9,6 @@
 - [Assignment 2: Structure From Motion](#assignment-2-structure-from-motion)
     - [Introduction](#introduction-1)
     - [Requirements / Rubric](#requirements--rubric-1)
-- [How to use](#how-to-use)
 
 ## How to use
 ```shell
