@@ -22,7 +22,7 @@ code ./ # open this folder via vscode locally
 ```
 
 ## Assignment 1: Geometry Processing
-![Mesh Decimation](assets/assignment1/meshdecimation.png)
+![Mesh Decimation](img/meshdecimation.png)
 
 ### Introduction
 In this assignment, you will implement surface subdivision and simplification using **Loop Subdivision** and **Quadric Error Metrics**, respectively. The task requires the construction of a data structure with adjacency, such as half-edge or incidence matrices, to facilitate quick traversal of mesh regions for computations. You can find the algorithms in the class lectures. The outcome will be an upsampled or downsampled version of a given mesh.
@@ -51,7 +51,7 @@ The following files are used:
 For all extra credit, be sure to demonstrate in your write up cases where your extra credit.
 
 ## Assignment 2: Structure From Motion
-![Mesh Decimation](assets/assignment2/sfm.png)
+![Mesh Decimation](img/sfm.png)
 
 ### Introduction
 In this assignment, you will implement structure from motion in computer vision. Structure from motion (SFM) is a technique used to reconstruct the 3D structure of a scene from a sequence of 2D images or video frames. It involves estimating the camera poses and the 3D positions of the scene points.
