@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>assignment2</title>
+		<style>
+			body { margin: 0; }
+		</style>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://unpkg.com/three@0.147.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.147.0/examples/jsm/"
+          }
+        }
+    </script>
+	</head>
+	<body>
+		<h1 style="text-align: center;">Assignment 3</h1>
+		<h2>Introduction</h2>
+		<p>For this assignment, you will be training your own NeRF or Gaussian Splatting. 
+			<ul>
+				<li><a href="https://github.com/bmild/nerf">NeRF</a></li>
+				<li><a href="https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/">3DGS</a></li>
+			</ul>
+			We have made available a visualization tool using the Three.js library implemented in "./js/assignment3.js" and an example NerfStudio Colab can be found <a href="https://colab.research.google.com/drive/13ZUOVo9N4fjZcoS_R9N0BsYa2kV6ywuq?usp=sharing">here</a>. You have the option to launch the demo either through Colab or on your local machine. It is important to note that while Colab offers free TPU access, completing the training within the free tier may not be feasible. In this assignment, your task is to collect your own data, conduct calibration, and train your NeRF/3DGS model. You are welcome to use any programming language you are comfortable with. Ensure that the final results are exported in obj/ply format for visualization.  You should then evaluate your results by comparing them with solutions from <a href="https://alicevision.org/#meshroom">Mesh Room</a> or <a href="https://colmap.github.io/">COLMAP</a>.
+			<br><br>
+			<b>How to Submit: </b>Please submit this template file along with your implementation as a zip file. The zip file should contain your source code, the generated results in PLY mesh format, and a report that has been modified using this HTML file. The report should comprise your results and a concise explanation of your implementation. Alternatively, you may choose to create a GitHub repository containing all these elements and provide a link for submission.
+			<br><br>
+			<b>Requirements / Rubric: </b>The grading is based on the correctness of your implementation. You are encouraged to use the visualization tool to debug your implementation. You can also use the visualization tool to test your implementation on other 3D models. </p>
+				<ul>
+					<li>+80 pts: Complete the training using your own data. </li>
+					<li>+20 pts: Write up your project, algorithms, reporting results (reprojection error) and visualisations, compare your reconstruction with open source software Colmap.</li>
+					<li>+10 pts: Extra credit (see below)</li>
+					<li>-5*n pts: Lose 5 points for every time (after the first) you do not follow the instructions for the hand in format</li>
+				</ul>
+			<b>Extract Credit:</b> You are free to complete any extra credit:
+				<ul>
+					<li>up to 5 pts: Present results with your own captured data.</li>
+					<li>up to 10 pts: Implement Bundle Adjustment in incremental SFM.</li>
+					<li>up to 10 pts: Implement multi-view stereo (dense reconstruction).</li>
+					<li>up to 20 pts: Create mobile apps to turn your SFM to a scanner.</li>
+					<li>up to 10 pts: Any extra efforts you build on top of basic SFM.</li>
+				</ul>
+		</p>
+		<h2>NeRF/3DGS</h2>
+        <div id="container"></div>
+		<script type="module" src="../js/assignment2.js"></script>
+	</body>
+</html>
