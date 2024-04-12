@@ -9,6 +9,9 @@
 - [Assignment 2: Structure From Motion](#assignment-2-structure-from-motion)
     - [Introduction](#introduction-1)
     - [Requirements / Rubric](#requirements--rubric-1)
+- [Assignment 3: NeRF / 3DGS](#assignment-3-nerf--3dgs)
+    - [Introduction](#introduction-2)
+    - [Requirements / Rubric](#requirements--rubric-2)
 
 ## How to use
 ```shell
@@ -90,7 +93,7 @@ The following files are used:
 
 For all extra credit, be sure to demonstrate in your write up cases where your extra credit.
 
-## Assignment 3: NeRF/3DGS
+## Assignment 3: NeRF / 3DGS
 ![](https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5e700ef6067b43821ed52768_pipeline_website-01-p-800.png)
 ### Introduction 
 A Neural Radiance Field (NeRF) is a computer vision technique for constructing highly detailed 3D scenes from sets of 2D images. It uses a deep neural network to map spatial coordinates and viewing angles to color and density, enabling the rendering of new viewpoints in complex environments. This makes NeRF valuable for applications in virtual reality and visual effects
