@@ -100,7 +100,7 @@ A Neural Radiance Field (NeRF) is a computer vision technique for constructing h
 
 Recent advancements in novel-view synthesis have introduced a method using 3D Gaussians to improve visual quality while maintaining real-time display rates. This technique employs sparse points from camera calibration to represent scenes with 3D Gaussians, preserving the characteristics of volumetric radiance fields. It includes an optimization and density control mechanism, along with a rapid, visibility-aware rendering algorithm that supports anisotropic splatting. This method effectively generates high-quality 3D scenes from 2D images in real-time.
 
-In this assignment, you'll play around with these neural renderings train your own NeRF/3DGS.
+In this assignment, you'll play around with these neural renderings and train your own NeRF/3DGS.
 
 The following files are used:
 - `community colabs or repos`
