@@ -89,3 +89,31 @@ The following files are used:
 * up to 10 pts: Any extra efforts you build on top of basic SFM.
 
 For all extra credit, be sure to demonstrate in your write up cases where your extra credit.
+
+## Assignment 3: NeRF/3DGS
+![](https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5e700ef6067b43821ed52768_pipeline_website-01-p-800.png)
+### Introduction 
+A Neural Radiance Field (NeRF) is a computer vision technique for constructing highly detailed 3D scenes from sets of 2D images. It uses a deep neural network to map spatial coordinates and viewing angles to color and density, enabling the rendering of new viewpoints in complex environments. This makes NeRF valuable for applications in virtual reality and visual effects
+
+Recent advancements in novel-view synthesis have introduced a method using 3D Gaussians to improve visual quality while maintaining real-time display rates. This technique employs sparse points from camera calibration to represent scenes with 3D Gaussians, preserving the characteristics of volumetric radiance fields. It includes an optimization and density control mechanism, along with a rapid, visibility-aware rendering algorithm that supports anisotropic splatting. This method effectively generates high-quality 3D scenes from 2D images in real-time.
+
+In this assignment, you'll play around with these neural renderings train your own NeRF/3DGS.
+
+The following files are used:
+- `community colabs or repos`
+- `html/assignment3.html`
+- `js/assignment3.js`
+
+### Requirements / Rubric
+* +80 pts: Complete the training using your own data.
+* +20 pts: Write up your project, algorithms, reporting results (reprojection error) and visualisations, compare your reconstruction with open source software Colmap.
+* +10 pts: Extra credit (see below)
+* -5*n pts: Lose 5 points for every time (after the first) you do not follow the instructions for the hand in format
+
+**Extract Credit** You are free to complete any extra credit:
+
+* up to 5 pts: Present results with your own captured data.
+* up to 10 pts: Train your models with both Nerf and 3DGS.
+* up to 20 pts: Train your model with language embedding (e.g., LERF).
+
+For all extra credit, be sure to demonstrate in your write up cases where your extra credit.
